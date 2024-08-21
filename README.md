@@ -8,47 +8,44 @@ Welcome to **ErkanYaprak_UnityHelpers**! This package contains a collection of u
 
 #### **MonoSingleton.cs**
 A generic Singleton pattern class derived from `MonoBehaviour`. Perfect for creating single-instance managers without losing `MonoBehaviour` functionality.  
-[View Script](./Scripts/MonoSingleton.cs)  
-[Test Scene](./Scenes/MonoSingletonTest.unity)
+[View Script](Assets/_Game/Scripts/_helpers/MonoSingleton.cs)  
 
 #### **GlobalBinder.cs**
 Centralizes all managers in one place and provides public access to them. Ideal for managing global game systems.  
-[View Script](./Scripts/GlobalBinder.cs)  
-[Test Scene](./Scenes/GlobalBinderTest.unity)
+[View Script](Assets/_Game/Scripts/_helpers/GlobalBinder.cs)  
 
 #### **Audio.cs & AudioManager.cs**
 Manages audio data and playback, including volume, pitch, and looping.  
-[View Audio Script](./Scripts/Audio.cs)  
-[View AudioManager Script](./Scripts/AudioManager.cs)  
-[Test Scene](./Scenes/AudioManagerTest.unity)
+[View Audio Script](Assets/_Game/Scripts/_helpers/Audio/Audio.cs)  
+[View AudioManager Script](Assets/_Game/Scripts/_helpers/Audio/AudioManager.cs)  
+[Test Scene](Assets/_Game/Test/AudioTest)
 
 #### **ParticleData.cs & ParticleManager.cs**
 Handles particle data and controls particle effects in the game world.  
-[View ParticleData Script](./Scripts/ParticleData.cs)  
-[View ParticleManager Script](./Scripts/ParticleManager.cs)  
-[Test Scene](./Scenes/ParticleManagerTest.unity)
+[View ParticleData Script](Assets/_Game/Scripts/_helpers/Particle/ParticleData.cs)  
+[View ParticleManager Script](Assets/_Game/Scripts/_helpers/Particle/ParticleManager.cs)  
+[Test Scene](Assets/_Game/Test/ParticleTest)
 
 #### **PopUpText.cs & PopUpTextManager.cs**
 Manages TextMeshPro-based popup text, including animation and object pooling.  
-[View PopUpText Script](./Scripts/PopUpText.cs)  
-[View PopUpTextManager Script](./Scripts/PopUpTextManager.cs)  
-[Test Scene](./Scenes/PopUpTextManagerTest.unity)
+[View PopUpText Script](Assets/_Game/Scripts/_helpers/PopUp/PopUpText.cs)  
+[View PopUpTextManager Script](Assets/_Game/Scripts/_helpers/PopUp/PopUpTextManager.cs)  
+[Test Scene](Assets/_Game/Test/PopUpTest)
 
 #### **FPSScript.cs**
 Displays the current FPS using TextMeshProUGUI for performance monitoring.  
-[View Script](./Scripts/FPSScript.cs)  
-[Test Scene](./Scenes/FPSScriptTest.unity)
+[View Script](Assets/_Game/Scripts/_helpers/FPS/FPSScript.cs)  
+[Test Scene](Assets/_Game/Test/FPSTest)
 
 #### **GameState.cs & GameStateManager.cs**
 Manages game states and triggers events based on state changes.  
-[View GameState Script](./Scripts/GameState.cs)  
-[View GameStateManager Script](./Scripts/GameStateManager.cs)  
-[Test Scene](./Scenes/GameStateManagerTest.unity)
+[View GameState Script](Assets/_Game/Scripts/_helpers/GameState/GameState.cs)  
+[View GameStateManager Script](Assets/_Game/Scripts/_helpers/GameState/GameStateManager.cs)  
+[Test Scene](Assets/_Game/Test/GameState)
 
 #### **ObjectPool.cs**
 Provides functionality for object pooling, improving performance and resource management.  
-[View Script](./Scripts/ObjectPool.cs)  
-[Test Scene](./Scenes/ObjectPoolTest.unity)
+[View Script](Assets/_Game/Scripts/_helpers/ObjectPool.cs)  
 
 #### **TimeManager.cs**
 Manages game time, including pausing, manipulating duration, and controlling time flow.  
