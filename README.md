@@ -57,7 +57,24 @@ Manages game time, including pausing, manipulating duration, and controlling tim
 
 ## 📥 How to Install
 
-You can download and import this package into your Unity project through the Unity Package Manager. Simply add the package using the Git URL: ErkanYaprak_UnityHelpers/Assets/ErkanYaprak_UnityHelpers.unitypackage
+### Using Unity Package Manager
+
+You can add the package to your Unity project using the Unity Package Manager. Follow these steps:
+
+1. Open your Unity project.
+2. Go to **Window** > **Package Manager**.
+3. Click on the **+** icon and select **Add package from Git URL...**.
+4. Enter the following URL to add the package: [Page](https://github.com/nakrekarpay1245/ErkanYaprak_UnityHelpers.git)
+   
+### Using Unity Package File
+
+Alternatively, you can download and import the package as a `.unitypackage` file:
+
+1. [Download the package](https://github.com/nakrekarpay1245/ErkanYaprak_UnityHelpers/blob/main/ErkanYaprak_UnityHelpers/Assets/ErkanYaprak_UnityHelpers.unitypackage) from this link.
+2. Open your Unity project.
+3. Go to **Assets** > **Import Package** > **Custom Package...**.
+4. Select the downloaded `.unitypackage` file and click **Import**.
+
 
 ## 🌐 Public Repositories
 
