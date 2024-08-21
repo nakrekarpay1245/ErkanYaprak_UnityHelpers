@@ -13,10 +13,6 @@ namespace _Game.Scripts.Testing
         [Tooltip("The PopUpTextManager instance used to display pop-ups.")]
         [SerializeField] private PopUpTextManager _popUpTextManager;
 
-        [Header("Input Settings")]
-        [Tooltip("The key to press for showing pop-up text.")]
-        [SerializeField] private KeyCode _triggerKey = KeyCode.Space;
-
         [Header("Pop-Up Text Settings")]
         [Tooltip("A list of possible texts that will be shown randomly.")]
         [SerializeField] private List<string> _popUpTextOptions = new List<string>();
@@ -62,7 +58,7 @@ namespace _Game.Scripts.Testing
         /// </summary>
         private void HandlePopUpTextTrigger()
         {
-            if (Input.GetKeyDown(_triggerKey) && _popUpTextManager != null && _popUpTextOptions.Count > 0)
+            if (Input.anyKeyDown && _popUpTextManager != null && _popUpTextOptions.Count > 0)
             {
                 string randomText = GetRandomText();
                 _popUpTextManager.ShowPopUpText(_popUpPosition, randomText, _popUpDuration);
