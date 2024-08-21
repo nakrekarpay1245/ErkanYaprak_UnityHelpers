@@ -52,8 +52,7 @@ Provides functionality for object pooling, improving performance and resource ma
 
 #### **TimeManager.cs**
 Manages game time, including pausing, manipulating duration, and controlling time flow.  
-[View Script](./Scripts/_helpers/Time)
-[Test Scene](./Scenes/TimeManagerTest.unity)
+[View Script](Assets/_Game/Scripts/_helpers/Time)
 
 
 ## 📥 How to Install
