@@ -1,50 +1,50 @@
-using _Game.Scripts._helpers;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameStateTest : MonoBehaviour
+namespace _Game.Scripts._helpers.GameState
 {
-    [Header("PauseController Params")]
-    [SerializeField]
-    private Button _pauseButton;
-    [SerializeField]
-    private Button _resumeButton;
-    [SerializeField]
-    private Image _pauseMenu;
-
-    [SerializeField]
-    private GameStateManager _gameStateManager;
-
-    private void Awake()
+    public class GameStateTest : MonoBehaviour
     {
-        _pauseButton.onClick.AddListener(() =>
+        [Header("PauseController Params")]
+        [SerializeField]
+        private Button _pauseButton;
+        [SerializeField]
+        private Button _resumeButton;
+        [SerializeField]
+        private Image _pauseMenu;
+
+        [SerializeField]
+        private GameStateManager _gameStateManager;
+
+        private void Awake()
         {
-            PauseGame();
-        });
+            _pauseButton.onClick.AddListener(() =>
+            {
+                PauseGame();
+            });
 
-        _resumeButton.onClick.AddListener(() =>
+            _resumeButton.onClick.AddListener(() =>
+            {
+                ResumeGame();
+            });
+        }
+
+        public void PauseGame()
         {
-            ResumeGame();
-        });
-    }
+            _pauseMenu.gameObject.SetActive(true);
+            _pauseButton.gameObject.SetActive(false);
 
-    public void PauseGame()
-    {
-        _pauseMenu.gameObject.SetActive(true);
-        _pauseButton.gameObject.SetActive(false);
+            GameState newGameState = GameState.Pause;
+            _gameStateManager.SetState(newGameState);
+        }
 
-        GameState newGameState = GameState.Pause;
-        _gameStateManager.SetState(newGameState);
-    }
+        public void ResumeGame()
+        {
+            _pauseMenu.gameObject.SetActive(false);
+            _pauseButton.gameObject.SetActive(true);
 
-    public void ResumeGame()
-    {
-        _pauseMenu.gameObject.SetActive(false);
-        _pauseButton.gameObject.SetActive(true);
-
-        GameState newGameState = GameState.Gameplay;
-        _gameStateManager.SetState(newGameState);
+            GameState newGameState = GameState.Gameplay;
+            _gameStateManager.SetState(newGameState);
+        }
     }
 }

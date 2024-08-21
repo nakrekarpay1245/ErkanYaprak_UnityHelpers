@@ -304,10 +304,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _particleManager: {fileID: 1073166487}
-  _popParticleKey: pop
-  _popParticleKeyCode: 306
-  _poofParticleKey: poof
-  _poofParticleKeyCode: 304
+  _fireParticleKey: fire
+  _fireParticleKeyCode: 306
+  _smokeParticleKey: smoke
+  _smokeParticleKeyCode: 304
 --- !u!1 &1073166484
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,11 +353,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ParticleDataList:
-  - ParticleName: pop
+  - ParticleName: fire
     ParticleCount: 10
     _particleSystemList:
     - {fileID: 8653458764756402255, guid: b32abe362178a0948bf84bb77b64ec62, type: 3}
-  - ParticleName: poof
+  - ParticleName: smoke
     ParticleCount: 10
     _particleSystemList:
     - {fileID: 8653458764756402255, guid: 640828c4ab03fbc4dac9d6cdc08b3a92, type: 3}
@@ -605,7 +605,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Click LeftCtrl: Pop --- Click LeftShift: Poof'
+  m_text: 'Click LeftCtrl: Fire --- Click LeftShift: Smoke'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

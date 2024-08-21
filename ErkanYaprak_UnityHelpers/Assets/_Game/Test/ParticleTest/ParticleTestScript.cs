@@ -10,19 +10,19 @@ namespace _Game.Scripts._helpers.Particles
         private ParticleManager _particleManager;
 
         [Header("Particle System Keys")]
-        [Tooltip("Key for the 'pop' particle system.")]
+        [Tooltip("Key for the 'fire' particle system.")]
         [SerializeField]
-        private string _popParticleKey = "pop";
-        [Tooltip("KeyCode to trigger the 'pop' particle effect.")]
+        private string _fireParticleKey = "fire";
+        [Tooltip("KeyCode to trigger the 'fire' particle effect.")]
         [SerializeField]
-        private KeyCode _popParticleKeyCode = KeyCode.LeftControl;
+        private KeyCode _fireParticleKeyCode = KeyCode.LeftControl;
         [Space]
-        [Tooltip("Key for the 'poof' particle system.")]
+        [Tooltip("Key for the 'smoke' particle system.")]
         [SerializeField]
-        private string _poofParticleKey = "poof";
-        [Tooltip("KeyCode to trigger the 'poof' particle effect.")]
+        private string _smokeParticleKey = "smoke";
+        [Tooltip("KeyCode to trigger the 'smoke' particle effect.")]
         [SerializeField]
-        private KeyCode _poofParticleKeyCode = KeyCode.LeftShift;
+        private KeyCode _smokeParticleKeyCode = KeyCode.LeftShift;
 
         private void Update()
         {
@@ -34,14 +34,14 @@ namespace _Game.Scripts._helpers.Particles
         /// </summary>
         private void HandleParticleInput()
         {
-            if (Input.GetKeyDown(_popParticleKeyCode))
+            if (Input.GetKeyDown(_fireParticleKeyCode))
             {
-                PlayParticle(_popParticleKey);
+                PlayParticle(_fireParticleKey);
             }
 
-            if (Input.GetKeyDown(_poofParticleKeyCode))
+            if (Input.GetKeyDown(_smokeParticleKeyCode))
             {
-                PlayParticle(_poofParticleKey);
+                PlayParticle(_smokeParticleKey);
             }
         }
 
