@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using System.Collections;
 
-namespace _Game.Scripts.Helpers.PopUp
+namespace _Game.Scripts._helpers.PopUp
 {
     /// <summary>
     /// Manages pop-up text, including setting the text and animating its appearance using coroutines.
