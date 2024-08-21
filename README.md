@@ -59,5 +59,20 @@ Manages game time, including pausing, manipulating duration, and controlling tim
 
 You can download and import this package into your Unity project through the Unity Package Manager. Simply add the package using the Git URL:
 
+## 🌐 Public Repositories
+
+This package is open source and publicly available. You can explore other repositories where this package is used:
+
+- [Example Project 1](#)
+- [Example Project 2](#)
+
+## 📧 Contact & Support
+
+For any questions or support, please reach out to:
+
+- **Developer:** Erkan Yaprak
+- **GitHub Profile:** [yourusername](https://github.com/yourusername)
 ```bash
 https://github.com/yourusername/ErkanYaprak_UnityHelpers.git
+
+
