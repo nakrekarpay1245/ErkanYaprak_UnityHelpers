@@ -52,8 +52,9 @@ Provides functionality for object pooling, improving performance and resource ma
 
 #### **TimeManager.cs**
 Manages game time, including pausing, manipulating duration, and controlling time flow.  
-[View Script](./Scripts/TimeManager.cs)  
+[View Script](./Scripts/_helpers/Time)
 [Test Scene](./Scenes/TimeManagerTest.unity)
+
 
 ## 📥 How to Install
 
@@ -80,15 +81,20 @@ Alternatively, you can download and import the package as a `.unitypackage` file
 
 This package is open source and publicly available. You can explore other repositories where this package is used:
 
-- [Example Project 1](#)
-- [Example Project 2](#)
+- [Match Statiob](https://github.com/nakrekarpay1245/MatchStation)
+
 
 ## 📧 Contact & Support
 
 For any questions or support, please reach out to:
 
 - **Developer:** Erkan Yaprak
-- **GitHub Profile:** [yourusername](https://github.com/yourusername)
+- **GitHub Profile:** [nakrekarpay1245](https://github.com/nakrekarpay1245)
+- **Personal Website:** [erkanyaprak.w3spaces.com](https://erkanyaprak.w3spaces.com/)
+- **Old Clone Projects:** [erkanyaprak.w3spaces.com/allgames.html](https://erkanyaprak.w3spaces.com/allgames.html) (Alternative: [itch.io](https://erkanyaprak.itch.io/))
+- **Project Promotion Page:** [Hard Deliver](https://erkanyaprak.w3spaces.com/hard-deliver.html) (Upcoming on Steam)
+- **Email:** rknyprk79@gmail.com
+- **LinkedIn:** [Erkan Yaprak](https://www.linkedin.com/in/erkanyaprak/)
 ```bash
 https://github.com/yourusername/ErkanYaprak_UnityHelpers.git
 
