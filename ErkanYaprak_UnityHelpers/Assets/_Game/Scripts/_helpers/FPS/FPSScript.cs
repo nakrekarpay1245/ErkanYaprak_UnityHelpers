@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-namespace _Game.Scripts.Helpers
+namespace _Game.Scripts._helpers.FPS
 {
     /// <summary>
     /// FPSScript is responsible for calculating and displaying the frames per second (FPS) in a UI TextMeshPro element.

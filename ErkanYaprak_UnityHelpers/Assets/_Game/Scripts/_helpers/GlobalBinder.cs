@@ -1,5 +1,6 @@
 using _Game.Scripts._helpers.Audios;
 using _Game.Scripts._helpers.Particles;
+using _Game.Scripts._helpers.TimeManagement;
 using UnityEngine;
 
 namespace _Game.Scripts._helpers
