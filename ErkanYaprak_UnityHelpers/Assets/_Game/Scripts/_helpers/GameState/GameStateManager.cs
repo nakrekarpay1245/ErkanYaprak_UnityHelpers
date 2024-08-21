@@ -9,6 +9,11 @@ namespace _Game.Scripts._helpers
     public class GameStateManager : MonoBehaviour
     {
         /// <summary>
+        /// The single instance of GameStateManager (Singleton pattern).
+        /// </summary>
+        public static GameStateManager Instance { get; private set; }
+
+        /// <summary>
         /// Event triggered whenever the game state changes.
         /// </summary>
         public event System.Action<GameState> OnGameStateChanged;
@@ -19,9 +24,21 @@ namespace _Game.Scripts._helpers
         public GameState CurrentGameState { get; private set; } = GameState.Gameplay; 
 
         /// <summary>
-        /// Private constructor to prevent external instantiation (Singleton Pattern).
+        /// Awake is called when the script instance is being loaded.
+        /// Initializes the Singleton instance and ensures only one instance exists.
         /// </summary>
-        private GameStateManager() { }
+        private void Awake()
+        {
+            if (Instance != null && Instance != this)
+            {
+                Destroy(gameObject); // Ensures there's only one instance
+                return;
+            }
+
+            Instance = this;
+            DontDestroyOnLoad(gameObject); // Persist across scenes if needed
+        }
+
 
         /// <summary>
         /// Sets the new game state and invokes the OnGameStateChanged event if the state changes.
