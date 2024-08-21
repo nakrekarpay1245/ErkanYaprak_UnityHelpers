@@ -21,7 +21,7 @@ namespace _Game.Scripts._helpers
         /// <summary>
         /// Gets the current game state.
         /// </summary>
-        public GameState CurrentGameState { get; private set; } = GameState.Gameplay; 
+        public GameState CurrentGameState { get; private set; } = GameState.Gameplay;
 
         /// <summary>
         /// Awake is called when the script instance is being loaded.
@@ -48,8 +48,8 @@ namespace _Game.Scripts._helpers
         {
             if (newGameState == CurrentGameState)
                 return;
-
             CurrentGameState = newGameState;
+            Debug.Log(newGameState.ToString());
             OnGameStateChanged?.Invoke(newGameState);
         }
     }
