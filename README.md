@@ -64,7 +64,7 @@ You can add the package to your Unity project using the Unity Package Manager. F
 1. Open your Unity project.
 2. Go to **Window** > **Package Manager**.
 3. Click on the **+** icon and select **Add package from Git URL...**.
-4. Enter the following URL to add the package: [Page](https://github.com/nakrekarpay1245/ErkanYaprak_UnityHelpers.git)
+4. Enter the following URL to add the package: https://github.com/nakrekarpay1245/ErkanYaprak_UnityHelpers.git
    
 ### Using Unity Package File
 
