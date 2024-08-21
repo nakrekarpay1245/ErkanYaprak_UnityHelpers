@@ -259,6 +259,56 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!1 &976828073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 976828075}
+  - component: {fileID: 976828074}
+  m_Layer: 0
+  m_Name: AudioTest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &976828074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976828073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19a0fdb98378f74ca1f6ca41b0221be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioManager: {fileID: 1073166485}
+  _popClipKey: pop
+  _popClipKeyCode: 306
+  _poofClipKey: poof
+  _poofClipKeyCode: 304
+  _clickClipKey: click
+--- !u!4 &976828075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976828073}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1073166484
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,19 +339,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioList:
-  - Name: Pop
+  - Name: pop
     _clipArray:
     - {fileID: 8300000, guid: 6c3d142708e52134f9eb39c241124284, type: 3}
     Volume: 1
-    Pitch: 0
+    Pitch: 1
     Loop: 0
-  - Name: Poof
+  - Name: poof
     _clipArray:
     - {fileID: 8300000, guid: 01cfa6be02fb13e4ba2f7be953ce9a3d, type: 3}
     Volume: 1
-    Pitch: 0
+    Pitch: 1
     Loop: 0
-  - Name: Click
+  - Name: click
     _clipArray:
     - {fileID: 8300000, guid: f8d50604ec273a24390ec7dfd70ed21c, type: 3}
     - {fileID: 8300000, guid: a2e4843286b0ac643ad61ecc69450aec, type: 3}
@@ -309,9 +359,9 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 5fbfa1e45e7eb0940885f9b5f7a3c93a, type: 3}
     - {fileID: 8300000, guid: 8a3b3017fb7a2474c9d38ee1809a5001, type: 3}
     Volume: 1
-    Pitch: 0.1
+    Pitch: 1
     Loop: 0
-  _maximumAudioCount: 10
+  _maximumAudioCount: 20
   _masterVolume: 1
   _isAudioSourceMuted: 0
   _soundMixerGroup: {fileID: 0}
@@ -765,6 +815,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 232884939}
   - {fileID: 1760849404}
-  - {fileID: 1073166486}
   - {fileID: 2135241991}
   - {fileID: 1386860940}
+  - {fileID: 1073166486}
+  - {fileID: 976828075}
