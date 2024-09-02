@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using System.Collections;
 
-namespace _Game.Scripts._helpers.TimeManagement
+namespace _Game._helpers.TimeManagement
 {
     /// <summary>
     /// Manages the game timer, including starting, stopping, adding extra time, and freezing the timer.

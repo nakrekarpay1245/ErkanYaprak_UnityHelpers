@@ -1,4 +1,4 @@
-namespace _Game.Scripts._helpers.GameState
+namespace _Game._helpers.GameState
 {
     public enum GameState
     {

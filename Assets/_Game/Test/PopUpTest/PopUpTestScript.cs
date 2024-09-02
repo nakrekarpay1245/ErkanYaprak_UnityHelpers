@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace _Game.Scripts._helpers.PopUp
+namespace _Game._helpers.PopUp
 {
     /// <summary>
     /// Demonstrates the usage of the PopUpTextManager by showing random text when a specified key is pressed.

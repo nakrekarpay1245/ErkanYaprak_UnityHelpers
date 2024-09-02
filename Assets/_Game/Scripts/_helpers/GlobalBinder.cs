@@ -1,9 +1,9 @@
-using _Game.Scripts._helpers.Audios;
-using _Game.Scripts._helpers.Particles;
-using _Game.Scripts._helpers.TimeManagement;
+using _Game._helpers.Audios;
+using _Game._helpers.Particles;
+using _Game._helpers.TimeManagement;
 using UnityEngine;
 
-namespace _Game.Scripts._helpers
+namespace _Game._helpers
 {
     /// <summary>
     /// Acts as a central hub for accessing various managers in the game.

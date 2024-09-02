@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace _Game.Scripts._helpers.GameState
+namespace _Game._helpers.GameState
 {
     /// <summary>
     /// Manages the current state of the game and notifies listeners when the game state changes.

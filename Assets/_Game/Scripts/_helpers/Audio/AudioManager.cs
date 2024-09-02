@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
-namespace _Game.Scripts._helpers.Audios
+namespace _Game._helpers.Audios
 {
     /// <summary>
     /// Manages the playing of audio clips using a pool of AudioSources.

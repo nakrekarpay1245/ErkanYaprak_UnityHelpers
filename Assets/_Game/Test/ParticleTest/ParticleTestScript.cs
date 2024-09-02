@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace _Game.Scripts._helpers.Particles
+namespace _Game._helpers.Particles
 {
     public class AudioTestScript : MonoBehaviour
     {

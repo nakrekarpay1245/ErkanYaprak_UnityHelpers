@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace _Game.Scripts._helpers.GameState
+namespace _Game._helpers.GameState
 {
     public class GameStateTest : MonoBehaviour
     {

@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-namespace _Game.Scripts._helpers.PopUp
+namespace _Game._helpers.PopUp
 {
     /// <summary>
     /// Manages a pool of PopUpText instances and controls their animation and display.

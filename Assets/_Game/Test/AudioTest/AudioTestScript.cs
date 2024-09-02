@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace _Game.Scripts._helpers.Audios
+namespace _Game._helpers.Audios
 {
     /// <summary>
     /// A script to test audio playback functionality with the AudioManager.

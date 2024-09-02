@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace _Game.Scripts._helpers.Particles
+namespace _Game._helpers.Particles
 {
     /// <summary>
     /// Stores data for a specific particle type, including its name, count, and associated particle systems.

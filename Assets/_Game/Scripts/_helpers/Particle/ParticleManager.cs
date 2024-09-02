@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace _Game.Scripts._helpers.Particles
+namespace _Game._helpers.Particles
 {
     /// <summary>
     /// Manages the generation, activation, and deactivation of particle effects in the game.

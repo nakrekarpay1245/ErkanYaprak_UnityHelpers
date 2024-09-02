@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace _Game.Scripts._helpers.Audios
+namespace _Game._helpers.Audios
 {
     /// <summary>
     /// Represents an audio configuration with multiple clips, volume, pitch, and loop settings.

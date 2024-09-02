@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace _Game.Scripts._helpers.GameState
+namespace _Game._helpers.GameState
 {
     /// <summary>
     /// Rotates the cube in a random direction at a specified speed.

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace _Game.Scripts._helpers
+namespace _Game._helpers
 {
     /// <summary>
     /// A generic object pool for MonoBehaviour types, which manages the reuse of objects to avoid unnecessary instantiation and destruction.
